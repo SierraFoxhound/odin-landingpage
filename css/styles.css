@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+font-family: Roboto, sans-serif;
+margin: 0px;
+}
+/*main-end*/
+
+/*header-start*/
+.header-sec {
+    background-color: #1F2937;
+    color: #F9FAF8;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.header-top {
+    display: flex;
+    padding: 16px 150px 0px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    padding: 100px 150px 100px 150px;
+    gap: 24px;
+}
+
+.header-des {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px;
+}
+
+.head-text {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.head-img {
+    flex: 1;
+    background-color: #6d6e70;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 6px 18px;
+}
+
+.sign-up{
+    align-self: flex-start;
+    border-style: none;
+}
+/*header-end*/
+
+/*info-start*/
+.info-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px 100px 150px;
+}
+
+.info-header{
+   font-size: 36px; 
+   font-weight: extra-bold;
+   color:#1F2937;
+}
+
+.info-des{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
