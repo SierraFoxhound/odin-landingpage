@@ -138,5 +138,30 @@ button {
 /*quote-start*/
 .quote-sec{
   background-color: #E5E7EB;
-  padding: 40px 150px 100px 150px;
+  padding: 100px 150px 100px 150px;
+}
+
+.quote-sec{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-main{
+    max-width: 47em;
+}
+
+.quote-text{
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-name{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 5em;
 }
