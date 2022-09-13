@@ -77,8 +77,8 @@ a {
 button {
     background-color: #3882f6;
     color: white;
-    border-radius: 8px;
-    padding: 6px 18px;
+    border-radius: 5px;
+    padding: 6px 24px;
 }
 
 .sign-up{
@@ -165,3 +165,36 @@ button {
     font-size: 18px;
     margin-right: 5em;
 }
+/*quote-end*/
+
+/*moodle-start*/
+.moodle-sec {
+    display: flex;
+    padding: 100px 0px 100px 0px;
+    justify-content: center;
+}
+
+.moodle {
+    background-color: #3882f6;
+    padding: 45px 120px 45px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    gap: 100px;
+}
+
+.moodle-text {
+    color: #E5E7EB
+}
+
+.moodle-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.moodle-button {
+    border-color: #E5E7EB;
+    border-style: solid;
+}
+/*moodle-end*/
