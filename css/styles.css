@@ -3,6 +3,7 @@
 body {
 font-family: Roboto, sans-serif;
 margin: 0px;
+height: 100vh;
 }
 /*main-end*/
 
@@ -33,6 +34,7 @@ a {
     padding: 16px 150px 0px 150px;
     justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
 }
 
 .logo {
@@ -198,3 +200,13 @@ button {
     border-style: solid;
 }
 /*moodle-end*/
+
+/*footer-start*/
+.footer-sec {
+    background-color:#1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+}
